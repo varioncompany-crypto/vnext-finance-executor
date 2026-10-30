@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "syntheticOnly": true,
+  "inputTextCharacters": 0,
+  "method": "tesseract_ocr",
+  "expectedFieldsFound": [
+    "OCR-2026-0042",
+    "30.10.2026",
+    "119,00 EUR"
+  ],
+  "originalSha256": "fad67b10640100a0cde8658849750d9a8b595c872ebc7761ae16355ade3b53f6",
+  "originalUnchanged": true,
+  "repeatWithFreshOutput": "passed",
+  "overwriteProtection": "passed",
+  "sourceOverwriteProtection": "passed",
+  "outputMode": "0600",
+  "businessWrites": 0,
+  "versions": {
+    "ocrmypdf": "16.7.0+dfsg1",
+    "tesseract": "tesseract 5.5.0",
+    "poppler": "pdftotext version 25.03.0",
+    "ghostscript": "10.05.1"
+  }
+}
