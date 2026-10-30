@@ -14,3 +14,6 @@ The only new credential is the read-only FAILSAFE_MEMORY_READ_TOKEN, supplied as
 Do not use broad app/provider tokens, create local servers, add paid APIs or bypass approval controls.
 This client cannot write memory. Submit proposed corrections to the user; approved explicit memories are saved through Failsafe.
 This integration is not verified in a cloud task until the environment secret/network setup and a real remote readback succeed.
+
+## Cloud finance execution
+Use the current remote main role reference; obsolete local Windows archive paths are not cloud startup gates. Implement shared application adapters in the private platform repository. This role repository is public: never copy private coordination, transaction records, memory payloads or credentials here. For finance setup, inspect connectors read-only and use synthetic tests; do not create real accounting entries as tests. Keep payment request, provider payment evidence, document and accounting readback separate. Cash dates come from actual receipt of payment. Deduplicate immutable source identities and reconcile unknown outcomes before retrying.
