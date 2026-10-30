@@ -59,3 +59,17 @@ archive and shared task store. Publish a checked result reference after work.
 An installation instruction is not proof of successful OCR: on first use perform
 a synthetic scan test in this cloud runtime, then process a genuine eligible
 document. Record failures accurately and continue independent work.
+
+## Incident memory and invoice acquisition
+On a technical failure, first query shared_memory.py with the provider, symptom,
+error code and endpoint. Read relevant historical fixes before repeating attempts.
+Distinguish confirmed root causes from hypotheses; a status code alone does not
+identify a role or permission problem. After a verified fix, update the existing
+private coordination task with symptom, cause, prerequisites, exact solution,
+verification, source references and next action. Propose the matching memory
+entry there; do not claim this read-only memory client persisted a write.
+For invoice retrieval, consult the shared cloudflare-fehlerverzeichnis entry.
+Use original PDF email attachments through the existing Gmail read-only connection
+when portal APIs do not provide a supported download. Check the actual attachment,
+source and hash before declaring retrieval complete. Never duplicate an existing
+invoice or booking merely because its original PDF is retrieved again.
