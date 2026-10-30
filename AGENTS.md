@@ -73,3 +73,34 @@ Use original PDF email attachments through the existing Gmail read-only connecti
 when portal APIs do not provide a supported download. Check the actual attachment,
 source and hash before declaring retrieval complete. Never duplicate an existing
 invoice or booking merely because its original PDF is retrieved again.
+
+## Daily accounting execution: completion policy
+Use the existing daily hosted job and shared accounting contract, not a new job.
+Start from current bank transactions and existing accounting records, not a list
+of missing attachments. Retrieve originals from authorized Gmail attachments,
+supported provider downloads and the approved private archive. A working email
+attachment route fully satisfies invoice acquisition; a failing optional portal
+endpoint must not block processing an available original or unrelated cases.
+Read cloudflare-rechnungsabruf-loesung as well as cloudflare-fehlerverzeichnis.
+For scanned documents use the tested OCR tool in this cloud environment; preserve
+source/hash and verify extracted fields. Do not repeat the synthetic setup test
+on every run unless installation or extraction actually fails.
+Reconcile existing invoices, vouchers, payment allocations and transaction IDs
+before creation or booking. Execute already authorized, unambiguous cases using
+the current shared policy and verify actual persisted results. Never treat an
+email payment notification as bank settlement proof. Transfers are not expenses.
+After a timeout read the actual record before retrying a write.
+Keep closed periods, existing cash records and user-deferred cases protected.
+For new explicitly cash-marked sales use the approved chronological sale-date
+payment rule. Do not send email automatically or submit tax returns.
+When the Worker already processed a transaction, verify it and do not book again.
+Do not claim that installing OCR changes the Worker's PDF parser. If OCR output
+cannot reach the authorized booking interface, record that precise integration
+gap and continue independent eligible work.
+If direct credentials are missing in this runtime, inspect the saved environment
+and the existing authorized gateway capabilities; never copy broad secrets into
+the public repository or substitute local PC execution. Report a real missing
+permission once with the exact next step, not generic repeated approval requests.
+Publish a short shared result: completed with source/record references, remaining
+user-deferred or physical documents, and genuine technical blockers. Carry forward
+only unresolved cases. Do not re-open already reconciled cases without new evidence.
