@@ -117,3 +117,17 @@ Existing tasks may retain an older environment revision. Report saved configurat
 
 ### Known cloud networking recovery (2026-10-30)
 For an authorized API read, errno 1 / Operation not permitted or curl 7 mentioning proxy:8080 does not by itself prove bad credentials or a dead proxy. Check the runtime skill and network policy, then use the shell tool's supported network permission/escalation path when available. Preserve the configured proxy and TLS trust; do not bypass them. Repeat only the failed read and record the real HTTP status. This recovered the CEO and procurement access checks on 2026-10-30. New published snapshots recovered other stale setup runtimes. A configured/running environment alone is not proof of network access. No Drive connector was exposed in these test runtimes; report that separately from successful GitHub, sevDesk, Shopify and Worker reads.
+
+## Private readbacks during diagnostics and tests (2026-11-04)
+For setup, health checks and test runs, do not echo private contracts, memory hits,
+provider bodies, account references or credentials into tool logs or chat. Capture
+responses into private scratch and inspect/process them inside the program. Avoid
+cat, printing response.text(), unrestricted jq, repr(error), env dumps and raw
+tracebacks for these inputs. Emit only the minimum needed status, coverage,
+revision and hash. Use `node tools/safe-readback.mjs /tmp/readback.json` for a
+fixed metadata-only summary; it deliberately omits content and arbitrary keys.
+Do not call a summary proof that the full business meaning was reviewed.
+When the user requests a read-only/report-only test, skip context bootstrap steps
+that write receipts; retrieve the same current canonical context without writes.
+An unavailable catalog is not automatic skill discovery. A manually loaded file
+is not proof that the published Cloud snapshot contains it.
